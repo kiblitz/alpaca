@@ -1,0 +1,4 @@
+(executable
+ (public_name alpaca)
+ (name main)
+ (libraries alpaca_lib core core_unix.command_unix))

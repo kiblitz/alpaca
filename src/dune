@@ -1,0 +1,5 @@
+(library
+ (name alpaca_lib)
+ (libraries alpaca_lexer core core_unix.command_unix)
+ (preprocess
+  (pps ppx_jane)))

@@ -1,0 +1,5 @@
+(library
+ (name alpaca_lexer)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane)))
